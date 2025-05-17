@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT-marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo flex">
+                <img src="images/logo-icon.svg" alt="icon">
+                <h3>NFT Marketplace</h3>
+            </div>
+            <div class="menu-toggle flex" id="menu-toggle">
+            </div>
+            <div class="nav-list-div">
+                <ul class="flex nav-list">
+                    <li>
+                        <a href="#">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Rankings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Connect a wallet
+                        </a>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <img src="images/user-icon.svg" alt="icon">
+                            Sign Up
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="hero flex gap-30">
+                <div class="flex flex-col hero-text gap-30">
+                    <div class="flex flex-col gap-20">
+                        <h1>Discover digital art & Collect NFTs</h1>
+                        <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k
+                            NFT artists.</p>
+                    </div>
+                    <button class="btn transparent">
+                        <img src="images/hero-rocket.svg" alt="icon">
+                        Get Started
+                    </button>
+                    <ul class="flex hero-list gap-30">
+                        <li class="flex flex-col">
+                            <h2>240k+</h2>
+                            <h3>Total Sale</h3>
+                        </li>
+                        <li class="flex flex-col">
+                            <h2>100k+</h2>
+                            <h3>Auctions</h3>
+                        </li>
+                        <li class="flex flex-col">
+                            <h2>240k+</h2>
+                            <h3>Artists</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-card">
+                    <div class="hero-image-div">
+                    </div>
+                    <div class="hero-card-bottom flex flex-col">
+                        <h2>Space Walking</h2>
+                        <div class="flex avatar">
+                            <img src="images/hero-ava-img.svg" alt="avatar">
+                            <h3>Animakid</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container collection-div flex flex-col">
+            <div class="flex flex-col gap-10 collection-text">
+                <h2>Trending Collection</h2>
+                <h3>Checkout our weekly updated trending collection.</h3>
+            </div>
+            <ul class="collection-list gap-30">
+                <li class="collection-list-item">
+                    <div class="collection-list-item-big"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small flex">
+                        <p>1025+</p>
+                    </div>
+                    <div class="collection-list-item-big">
+                        <h2>DSGN Animals</h2>
+                        <div class="avatar flex">
+                            <img src="images/ava-image-fox.png" alt="avatar">
+                            <h3>MrFox</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="collection-list-item">
+                    <div class="collection-list-item-big"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small flex">
+                        <p>1025+</p>
+                    </div>
+                    <div class="collection-list-item-big">
+                        <h2>Magic Mushrooms</h2>
+                        <div class="avatar flex">
+                            <img src="images/ava-image-fox.png" alt="avatar">
+                            <h3>Shroomie</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="collection-list-item">
+                    <div class="collection-list-item-big"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small"></div>
+                    <div class="collection-list-item-small flex">
+                        <p>1025+</p>
+                    </div>
+                    <div class="collection-list-item-big">
+                        <h2>Disco Machines</h2>
+                        <div class="avatar flex">
+                            <img src="images/ava-image-fox.png" alt="avatar">
+                            <h3>BeKind2Robots</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container creators-div flex flex-col gap-60">
+            <div class="flex creators-text-div">
+                <div class="flex flex-col gap-10 creators-text">
+                    <h2>Top creators</h2>
+                    <h3>Checkout Top Rated Creators on the NFT Marketplace</h3>
+                </div>
+                <button class="btn transparent">
+                    <img src="images/rocket-purple.svg" alt="icon">
+                    View Rankings
+                </button>
+            </div>
+            <div class="creators-grid">
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+                <div class="creators-card flex flex-col gap-20">
+                    <p class="number-badge flex">1</p>
+                    <img src="images/image-for-creators.png" alt="image">
+                    <div class="flex flex-col creators-card-text">
+                        <h2>Keepitreal</h2>
+                        <h3>Total Sales: <span>34.53 ETH</span></h3>
+                    </div>
+                </div>
+            </div>
+            <button class="btn second transparent">
+                <img src="images/rocket-purple.svg" alt="icon">
+                View Rankings
+            </button>
+        </div>
+        <div class="container categories-div flex flex-col gap-60">
+            <div class="flex gap-10 categories-text">
+                <h2>Browse Categories</h2>
+            </div>
+            <div class="categories-grid">
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+                <div class="categories-card flex flex-col">
+                    <div class="categories-card-image">
+                        <div class="bg-blur flex">
+                            <img src="images/PaintBrush.svg" alt="icon">
+                        </div>
+                    </div>
+                    <div class="categories-card-bottom flex">
+                        <h2>Art</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container discover-div flex flex-col gap-60">
+            <div class="discover-title flex">
+                <div class="flex flex-col discover-title-text">
+                    <h2>Discover More NFTs</h2>
+                    <h3>Explore new trending NFTs</h3>
+                </div>
+                <button class="btn transparent">
+                    <img src="images/eye-icon.svg" alt="icon">
+                    See All
+                </button>
+            </div>
+
+            <ul class="discover-list">
+                <li class="discover-card flex flex-col">
+                    <div class="dicover-card-img-div">
+                        <img src="images/discover-image.png" alt="image">
+                    </div>
+                    <div class="dicover-card-content flex flex-col">
+                        <div class="flex flex-col dicover-card-content-first">
+                            <h2>Distant Galaxy</h2>
+                            <div class="flex avatar">
+                                <img src="images/hero-ava-img.svg" alt="avatar">
+                                <h3>MoonDancer</h3>
+                            </div>
+                        </div>
+                        <div class="flex discover-card-bottom-text">
+                            <p class="flex flex-col gap-10">Price: <span>1.63 ETH</span></p>
+                            <p class="flex flex-col gap-10">Highest Bid: <span>0.33 wETH</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="discover-card flex flex-col">
+                    <div class="dicover-card-img-div">
+                        <img src="images/discover-image.png" alt="image">
+                    </div>
+                    <div class="dicover-card-content flex flex-col">
+                        <div class="flex flex-col dicover-card-content-first">
+                            <h2>Distant Galaxy</h2>
+                            <div class="flex avatar">
+                                <img src="images/hero-ava-img.svg" alt="avatar">
+                                <h3>MoonDancer</h3>
+                            </div>
+                        </div>
+                        <div class="flex discover-card-bottom-text">
+                            <p class="flex flex-col gap-10">Price: <span>1.63 ETH</span></p>
+                            <p class="flex flex-col gap-10">Highest Bid: <span>0.33 wETH</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="discover-card flex flex-col">
+                    <div class="dicover-card-img-div">
+                        <img src="images/discover-image.png" alt="image">
+                    </div>
+                    <div class="dicover-card-content flex flex-col">
+                        <div class="flex flex-col dicover-card-content-first">
+                            <h2>Distant Galaxy</h2>
+                            <div class="flex avatar">
+                                <img src="images/hero-ava-img.svg" alt="avatar">
+                                <h3>MoonDancer</h3>
+                            </div>
+                        </div>
+                        <div class="flex discover-card-bottom-text">
+                            <p class="flex flex-col gap-10">Price: <span>1.63 ETH</span></p>
+                            <p class="flex flex-col gap-10">Highest Bid: <span>0.33 wETH</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="magic-div flex flex-col gap-60">
+            <div class="magic-content flex">
+                <div class="flex flex-col gap-30 magic-content-text">
+                    <div class="magic-badge">
+                        <div class="avatar flex">
+                            <img src="images/ava-image-fox.png" alt="avatar">
+                            <h3>Shroomie</h3>
+                        </div>
+                    </div>
+                    <h2>Magic Mashrooms</h2>
+                    <button class="btn transparent magic-first">
+                        <img src="images/eye-icon.svg" alt="icon">
+                        See NFT
+                    </button>
+                </div>
+                <div class="magic-clock flex flex-col gap-10">
+                    <h2>Auction ends in:</h2>
+                    <div class="flex gap-10 magic-clock-time">
+                        <div class="flex flex-col">
+                            <h3>59</h3>
+                            <h4>Hours</h4>
+                        </div>
+                        <p>:</p>
+                        <div class="flex flex-col">
+                            <h3>59</h3>
+                            <h4>Minutes</h4>
+                        </div>
+                        <p>:</p>
+                        <div class="flex flex-col">
+                            <h3>59</h3>
+                            <h4>Seconds</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn transparent magic-second">
+                    <img src="images/eye-icon.svg" alt="icon">
+                    See NFT
+                </button>
+            </div>
+        </div>
+        <div class="container howitworks-div flex flex-col gap-60">
+            <div class="flex gap-10 howitworks-text flex-col">
+                <h2>How it works</h2>
+                <h3>Find out how to get started</h3>
+            </div>
+            <div class="howitworks-grid">
+                <div class="howitworks-item gap-20 flex flex-col">
+                    <div class="flex">
+                        <img src="images/howitworks-icon.svg" alt="image" class="howitworks-image">
+                    </div>
+                    <div class="howitworks-item-text flex-col flex gap-10">
+                        <h2>Setup Your wallet</h2>
+                        <h3>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the
+                            top right corner.</h3>
+                    </div>
+                </div>
+                <div class="howitworks-item gap-20 flex flex-col">
+                    <div class="flex howitworks-image">
+                        <img src="images/howitworks-icon.svg" alt="image" class="howitworks-image">
+                    </div>
+                    <div class="howitworks-item-text flex-col flex gap-10">
+                        <h2>Setup Your wallet</h2>
+                        <h3>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the
+                            top right corner.</h3>
+                    </div>
+                </div>
+                <div class="howitworks-item gap-20 flex flex-col">
+                    <div class="flex howitworks-image">
+                        <img src="images/howitworks-icon.svg" alt="image" class="howitworks-image">
+                    </div>
+                    <div class="howitworks-item-text flex-col flex gap-10">
+                        <h2>Setup Your wallet</h2>
+                        <h3>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the
+                            top right corner.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container form-div flex flex-col">
+            <div class="form gap-80">
+                <div class="form-image-div">
+                </div>
+                <div class="form-content flex flex-col gap-40">
+                    <div class="flex flex-col form-content-text gap-10">
+                        <h2>Join our weekly <br> digest</h2>
+                        <h3>Get exclusive promotions & updates straight to your inbox.</h3>
+                    </div>
+                    <form action="#" class="form-input-div flex flex-col">
+                        <input type="text" placeholder="Enter your email here" class="form-input">
+                        <button class="btn">
+                            <img src="images/envelope-icon.svg" alt="icon">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-content flex flex-col gap-30">
+            <div class="footer-content-first">
+                <div class="footer-first-col flex flex-col gap-30">
+                    <div class="logo flex">
+                        <img src="images/logo-icon.svg" alt="icon">
+                        <h3>NFT Marketplace</h3>
+                    </div>
+                    <ul class="flex flex-col gap-20">
+                        <li class="footer-list-item">
+                            NFT marketplace UI created with Anima for Figma.
+                        </li>
+                        <li class="footer-list-item flex flex-col gap-20">
+                            <p>Join our community</p>
+                            <div class="flex gap-10 footer-icon-list">
+                                <img src="images/DiscordLogo.svg" alt="icon">
+                                <img src="images/YoutubeLogo.svg" alt="icon">
+                                <img src="images/TwitterLogo.svg" alt="icon">
+                                <img src="images/InstagramLogo.svg" alt="icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-second-col flex flex-col gap-30">
+                    <h2 class="flex">Explore</h2>
+                    <ul class="flex flex-col gap-20">
+                        <li class="footer-list-item">
+                            <a href="#">Marketplace</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">Rankings</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">Connect a wallet</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-thirst-col flex flex-col gap-30">
+                    <h2 class="flex">Join our weekly digest</h2>
+                    <ul class="flex flex-col gap-20">
+                        <li class="footer-list-item">Get exclusive promotions & updates straight to your inbox.</li>
+                        <li class="footer-list-item flex flex-col gap-20">
+                            <form action="#" class="form-input-div flex flex-col">
+                                <input type="text" placeholder="Enter your email here" class="form-input">
+                                <button class="btn">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content-second flex">
+                <p>Ⓒ NFT Market. Use this template freely.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
